@@ -1,16 +1,129 @@
-# React + Vite
+# 📖 Dictionary Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive Dictionary Web Application built with React + Tailwind CSS.
+It allows users to search for words, view meanings, phonetics, pronunciation audio, synonyms, and antonyms with a clean and user-friendly interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔍 Word search
 
-## React Compiler
+### 🗣️ Phonetics and pronunciation audio
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📚 Multiple meanings and definitions
 
-## Expanding the ESLint configuration
+### 🔁 Synonyms and antonyms
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🕘 Search history using local storage
+
+### ⚠️ Error handling
+
+Word not found
+
+No internet connection
+
+### 📱 Fully responsive design
+
+### 🎨 Modern UI built with Tailwind CSS
+
+### 📜 Scrollable result card for long content
+
+## 🛠️ Tech Stack
+
+Frontend: React (Vite)
+
+Styling: Tailwind CSS
+
+API: DictionaryAPI.dev
+
+State Management: React Hooks
+
+Storage: Browser Local Storage
+
+## ⚙️ Installation and Setup
+Clone the repository
+
+git clone https://github.com/your-username/dictionary-app.git
+
+cd dictionary-app
+
+Install dependencies
+
+npm install
+
+Run the development server
+
+npm run dev
+
+## Open the app at:
+https://web-dictionary-v01.netlify.app/
+
+## 📂 Project Structure
+
+src/
+├── components/
+│ ├── SearchBar.jsx
+│ ├── ResultCard.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+
+## 🧠 How It Works
+
+User enters a word in the search bar
+
+The app fetches data from DictionaryAPI
+
+Displays word details including:
+
+Word
+
+Phonetics
+
+Audio pronunciation
+
+Definitions
+
+Synonyms and antonyms
+
+Search history is stored locally
+
+Errors are handled gracefully without crashing the app
+
+## ⚠️ Error Handling
+
+Invalid word → Displays “Word not found”
+No internet → Displays network error
+Empty input → Search ignored
+Large content → Result card becomes scrollable
+
+## 📱 Responsive Design
+
+Mobile-first layout
+
+No horizontal overflow
+
+Optimized for mobile, tablet, and desktop screens
+
+## 🌱 Future Improvements
+
+Multiple pronunciation audio sources
+
+Clickable synonyms for quick search
+
+Dark / light mode toggle
+
+Loading skeletons
+
+Offline caching
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+## 🙌 Acknowledgements
+
+DictionaryAPI.dev
+React and Tailwind CSS community
+
+⭐ If you like this project, consider giving it a star!
