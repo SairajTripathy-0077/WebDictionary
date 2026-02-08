@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'MelonPop';
+  src: url('./assets/MelonPop.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.clip-paper {
+  clip-path: polygon(
+    0% 2%,
+    5% 0%,
+    95% 1%,
+    100% 3%,
+    98% 95%,
+    95% 100%,
+    3% 98%,
+    0% 95%
+  );
+}
